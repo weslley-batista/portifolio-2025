@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Bloquear indexação de imagens específicas
+# Disallow: /images/avatar.jpg
+
+# Permitir indexação de todas as páginas
+Allow: /
+
+# Bloquear diretórios sensíveis
+Disallow: /api/
+Disallow: /_next/
