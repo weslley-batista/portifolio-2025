@@ -124,6 +124,21 @@ Adicione suas imagens em `public/images/`:
 - `avatar.jpg` - Foto de perfil
 - `project1.jpg`, `project2.jpg`, etc. - Screenshots dos projetos
 
+### Formulário de Contato
+O portfólio inclui um formulário de contato funcional usando EmailJS:
+
+1. Crie uma conta gratuita em [EmailJS](https://www.emailjs.com/)
+2. Configure um provedor de email (Gmail, Outlook, etc.)
+3. Crie um template de email
+4. Adicione as variáveis de ambiente no arquivo `.env.local`:
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+Para instruções detalhadas, consulte `EMAILJS_SETUP.md`.
+
 ## 📱 Responsividade
 
 O portfólio é totalmente responsivo e otimizado para:
