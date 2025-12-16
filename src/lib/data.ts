@@ -77,6 +77,16 @@ export const projects: Project[] = [
   },
   {
     id: '3',
+    title: 'Buscador de Preços com Scraping',
+    description: 'Aplicação web completa para busca de preços em tempo real através de scraping de múltiplas lojas online (Amazon, Magazine Luiza, Casas Bahia). Inclui cache inteligente, filtros avançados, interface responsiva e tratamento robusto de erros.',
+    image: '/images/webscraping.png',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Cheerio', 'API Routes', 'Web Scraping'],
+    githubUrl: 'https://github.com/weslley-batista/BuscadorPreco-scraping',
+    demoUrl: '',
+    featured: true,
+  },
+  {
+    id: '4',
     title: 'Autenticação JWT',
     description: 'Sistema de autenticação seguro utilizando JSON Web Tokens para controle de acesso e autorização em aplicações web.',
     image: '/images/project1.jpg',
@@ -85,7 +95,7 @@ export const projects: Project[] = [
     demoUrl: '',
   },
   {
-    id: '4',
+    id: '5',
     title: 'Autenticação com Firebase',
     description: 'Sistema de autenticação integrado com Google Firebase, incluindo login social e gerenciamento de usuários.',
     image: '/images/project1.jpg',
